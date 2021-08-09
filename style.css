@@ -53,3 +53,40 @@ hr {
     margin-left: 700px;
     margin-right: 500px;
 }
+
+@media (max-width: 1193px) {
+
+    .logo img{
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 0 auto;
+        box-shadow: 2px 2px 2px black;
+    }
+
+    .about p {
+        font-size: 12px;
+    }
+    
+    .about h4, li{
+        font-size: 12px;
+    }
+
+    .testi p {
+        font-family: Verdana;
+        font-size: 12px;
+        margin-left: 200px;
+        margin-right: 600px;
+    }
+
+    .testi img {
+        border-radius: 40%;
+        width: 200px;
+        height: 200px;
+        margin-top: -300px;
+        margin-left: 600px;
+        margin-right: 1100px;
+    }
+
+}
